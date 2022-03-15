@@ -8,24 +8,93 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header> <!--barra de navegacion de la página-->
-        <nav class="bar">
-            <a href="#" class="navigation">INICIO</a>
-            <a href="#" class="navigation">SOBRE MI</a>
-            <a href="#" class="navigation">HABILIDES</a>
-            <a href="#" class="navigation">PROYECTOS</a>
-            <a href="#" class="navigation">CONTACTO</a>
+    <header class="navigation"> <!--barra de navegacion de la página-->
+        <nav><!--
+            <div class="nav-movil">
+            <img src="img/perfil-photo.jpg" alt="barra de navegacion" >
+            </div>-->
+            <ul class="nav-menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#sobre-mi">SOBRE MI</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#final">CONTACTO</a></li>
+            </ul>
         </nav>
     </header><!--fin-barra de navegacion de la página-->
     <section class="theme"><!--tema principal de la página-->
         <div class="nombre">
-        <h2 >FEDERICO<br>BARZOLA</h2></div>
+        <h1 >FEDERICO<br>BARZOLA</h1>
+        <audio controls autoplay>
+            <source src="audio/Killzone 32 - FULL SOUNDTRACK(MP3_320K).mp3" type="audio/mpeg">
+            <source src="audio/Killzone 3 2- FULL SOUNDTRACK(MP3_320K).mp3" type="audio/ogg" />
+            Este audio no es compatible con tu navegador
+        </audio>
+    </div>
     </section><!--fin-tema principal de la página-->
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti at voluptas officia modi quaerat, eaque earum ipsum molestiae vel nihil odio, enim consequuntur dolores minima quae eius officiis commodi.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti at voluptas officia modi quaerat, eaque earum ipsum molestiae vel nihil odio, enim consequuntur dolores minima quae eius officiis commodi.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti at voluptas officia modi quaerat, eaque earum ipsum molestiae vel nihil odio, enim consequuntur dolores minima quae eius officiis commodi.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti at voluptas officia modi quaerat, eaque earum ipsum molestiae vel nihil odio, enim consequuntur dolores minima quae eius officiis commodi.</p>
+    <section id="sobre-mi">
+        <article class="grid">
+            
+            <div class="grid-container">
+                <div class="grid-item1">
+                    <h3>SOBRE MI</h3>
+                </div>
+                <div class="grid-item2">        
+                    <img src="img/perfil-photo.jpg">
+                    <p>AYUDANTE DE COCINA <span>&</span> PROGRAMADOR WEB</p>
+                </div>
+                <div class="grid-item3">
+                    <p>'Tengo una gran motivacion para crecer como profesional,ofreciendo mi mayor predisposicion y productividad para lograr el exito del establecimiento siempre manteniendo una relacion laboral prospera y fructifera'</p>
+                </div>
+                <div class="grid-item4">
+                    <table>
+                        <tr>
+                        <th>xcc</th>
+                        <td>asa</td>
+                        <th>xcc</th>
+                        <td>asa</td>
+                    </tr>
+                    <tr>
+                        <th>xcc</th>
+                        <td>asa</td>
+                        <th>xcc</th>
+                        <td>asa</td>
+                    </tr>
+
+                    </table>
+                </div>
+                <div class="grid-item5">5</div>
+                <div class="grid-item6">6</div>
+                <div class="grid-item7">7</div>
+                <div class="grid-item8">8</div>
+            </div>
+        </article>
+
     </section>
+    <section id="habilidades">
+        <h1>HABILIDADES</h1>
+        <h4 class="habilidades-left">HTML</h4>
+        <h4 class="habilidades-left">CSS</h4>
+        <h4 class="habilidades-left">JAVASCRIPT</h4>
+    </section>
+    <footer id="final">
+        <form class="formulario" action="" method="post">
+            <fieldset>
+                <legend>CONTACTATE CONMIGO</legend>
+                <form action="">
+                    <label for="GET-name">NOMBRE:</label> <input type="text" div="nombre"><br>
+                    <label for="GET-name">APELLIDO:</label> <input type="text" div="nombre"><br>
+                <input type="radio" name="radio id="radio"> 
+                <label for="radio">FEMENINO</label><br>
+                <input type="radio" name="radio id="radio">
+                <label for="radio">MASCULINO</label><br>
+                <input type="radio" name="radio id="radio">
+                <label for="radio">NO ESPECIFICAR</label><br>
+                <button>ENVIAR</button>
+                </form>
+            </fieldset>
+        </form>
+        <p>&copy; FEDERICO BARZOLA <span>2022</span></p>
+    </footer>
+
 </body>
 </html>
